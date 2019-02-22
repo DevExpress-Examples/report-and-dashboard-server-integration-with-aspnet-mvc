@@ -1,0 +1,19 @@
+﻿@model ReportServerIntegration.Models.ReportViewerModel
+
+@section Styles {
+    @Html.DevExpress().GetStyleSheets(
+       new StyleSheet { ExtensionSuite = ExtensionSuite.Report }
+    )
+}
+
+@section Scripts {
+    @Html.DevExpress().GetScripts(
+        new Script { ExtensionSuite = ExtensionSuite.Report }
+    )
+}
+
+@Html.DevExpress().WebDocumentViewer(settings => {
+    settings.Name = "WebDocumentViewer";
+    settings.SettingsRemoteSource.ServerUri = Model.ServerUri;
+    settings.SettingsRemoteSource.AuthToken = Model.AuthToken;
+}).Bind(Model.ReportUri).GetHtml()
