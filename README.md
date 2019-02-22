@@ -2,7 +2,7 @@
 
 This example demonstrates how to use the [Report and Dashboard Server](https://docs.devexpress.com/ReportServer/12432/index)'s API to obtain available documents and display them in the Document/Dashboard Viewers.
 
-The table below lists the controls that display documents depending on their types:
+The table below lists controls that display documents depending on their types:
 
 | Document Type | Control | Configuration Options |
 |---|---|---|
