@@ -1,0 +1,23 @@
+﻿@using DevExpress.DashboardWeb
+
+@model ReportServerIntegration.Models.DashboardViewerModel
+
+@section Styles {
+    @Html.DevExpress().GetStyleSheets(
+       new StyleSheet { ExtensionSuite = ExtensionSuite.Dashboard }
+    )
+}
+
+@section Scripts {
+    @Html.DevExpress().GetScripts(
+        new Script { ExtensionSuite = ExtensionSuite.Dashboard }
+    )
+}
+
+@Html.DevExpress().Dashboard(settings => {
+    settings.Name = "Dashboard";
+    settings.WorkingMode = WorkingMode.ViewerOnly;
+    settings.InitialDashboardId = Model.DashboardId;
+    settings.BackendOptions.Uri = Model.DesignerUri;
+    settings.BackendOptions.RequestHttpHeaders.Add("Authorization", Model.AuthorizationHeader);
+}).GetHtml()

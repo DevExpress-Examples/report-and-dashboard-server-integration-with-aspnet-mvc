@@ -1,0 +1,13 @@
+﻿@model IEnumerable<ReportServerIntegration.Models.DocumentModel>
+
+<ul>
+    @foreach(var document in Model) {
+    <li>
+        @if(document.DocumentType == "Report") {
+            @Html.ActionLink(document.Name, "ReportViewer", new { reportId = document.Id })
+        } else if(document.DocumentType == "Dashboard") {
+            @Html.ActionLink(document.Name, "DashboardViewer", new { dashboardId = document.Id })
+        }
+    </li>
+    }
+</ul>
