@@ -6,8 +6,8 @@ The table below lists controls that display documents depending on their types:
 
 | Document Type | Control | Configuration Options |
 |---|---|---|
-| Report | [ASP.NET MVC Document Viewer Extension](https://docs.devexpress.com/AspNet/114491/asp.net-mvc-extensions/reporting/document-viewer/html5-document-viewer) | [WebDocumentViewerSettings](https://docs.devexpress.com/AspNet/DevExpress.Web.Mvc.WebDocumentViewerSettings) |
-| Dashboard | [ASP.NET MVC Dashboard Extension](https://docs.devexpress.com/Dashboard/16977/creating-the-designer-and-viewer-applications/web-dashboard/asp.net-mvc-dashboard-extension) (in the [ViewerOnly](https://docs.devexpress.com/Dashboard/16982/creating-the-designer-and-viewer-applications/web-dashboard/asp.net-mvc-dashboard-extension/designer-and-viewer-modes) mode) | [DashboardExtensionSettings](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWeb.Mvc.DashboardExtensionSettings) |
+| Report | [ASP.NET MVC Document Viewer Extension](https://docs.devexpress.com/XtraReports/400221/create-end-user-reporting-applications/web-reporting/asp-net-mvc-reporting/document-viewer/html5-document-viewer) | [WebDocumentViewerSettings.SettingsRemoteSource](https://docs.devexpress.com/AspNet/DevExpress.Web.Mvc.WebDocumentViewerSettings.SettingsRemoteSource) |
+| Dashboard | [ASP.NET MVC Dashboard Extension](https://docs.devexpress.com/Dashboard/16977/creating-the-designer-and-viewer-applications/web-dashboard/asp.net-mvc-dashboard-extension) (in the [ViewerOnly](https://docs.devexpress.com/Dashboard/16982/creating-the-designer-and-viewer-applications/web-dashboard/asp.net-mvc-dashboard-extension/designer-and-viewer-modes) mode) | [DashboardExtensionSettings.BackendOptions](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWeb.Mvc.DashboardExtensionSettings.BackendOptions) |
 
 Before running the example, perform the following steps:
 
@@ -21,17 +21,19 @@ Before running the example, perform the following steps:
 
 **2. Download Resources and Specify Server Settings**
 
-* Refer to the [https://nuget.devexpress.com/#feed-url](https://nuget.devexpress.com/#feed-url) page and [obtain the NuGet Feed URL](https://docs.devexpress.com/GeneralInformation/116042/installation/install-devexpress-controls-using-nuget-packages/obtain-your-nuget-feed-url). This URL includes your personal feed authorization key.
+* In Visual Studio, right-click the solution and select **Restore NuGet Packages**. You can use the **DevExpress Local** package source shipped with installation or [setup a new package source](https://docs.devexpress.com/GeneralInformation/116698/installation/install-devexpress-controls-using-nuget-packages/setup-visual-studio's-nuget-package-manager).
 
-* [Setup Visual Studio's NuGet Package Manager](https://docs.devexpress.com/GeneralInformation/116698/installation/install-devexpress-controls-using-nuget-packages/setup-visual-studio's-nuget-package-manager).
+* Open the **Web.config** file and assign your Report and Dashboard Server's URI to the **appSettings/ReportServer:BaseUri** property.
 
-* Open the **web.config** file and assign your Report and Dashboard Server's URI to the **appSettings/ReportServer:BaseUri** property.
+*  Create the **Web.SECRETS.config** file with the following content and specify the API user name and password. 
 
-* TBD: username and password in the web.SECRETS.config
+    ```
+    <appSettings>
+      <add key="ReportServer:UserName" value="<api-user-name>" />
+      <add key="ReportServer:UserPassword" value="<api-user-password>" />
+    </appSettings>
+    ```
 
-**Run the Example**
+    See the following post for more details: [Best practices for private config data and connection strings](https://www.hanselman.com/blog/BestPracticesForPrivateConfigDataAndConnectionStringsInConfigurationInASPNETAndAzure.aspx).
 
-Use Visual Studio to build and run the example.
-
-
-
+**3. Run the Example**
