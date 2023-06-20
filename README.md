@@ -58,7 +58,7 @@ The page displays a list of reports and dashboards available to the current user
 - [ReportViewer.cshtml](ReportServerIntegration/Views/Home/ReportViewer.cshtml)
 - [DashboardViewer.cshtml](ReportServerIntegration/Views//Home/DashboardViewer.cshtml)
 - [Web.config](/ReportServerIntegration/Web.config)
-- 
+
 ## Documentation
 
 - [Report and Dashboard Server](https://docs.devexpress.com/ReportServer/12432/report-and-dashboard-server)
