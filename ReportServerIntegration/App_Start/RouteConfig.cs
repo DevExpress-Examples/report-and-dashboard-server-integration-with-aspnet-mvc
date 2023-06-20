@@ -16,7 +16,7 @@ namespace ReportServerIntegration {
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
-            routes.MapDashboardRoute();
+            routes.MapDashboardRoute("dashboardControl", "DefaultDashboard");
         }
     }
 }
