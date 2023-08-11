@@ -5,8 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>
-    </ProductVersion>
+    <ProductVersion></ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{807ABDB0-A8C5-4DF1-A12D-1CF96E2BE385}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
@@ -22,8 +21,7 @@
     <IISExpressWindowsAuthentication>disabled</IISExpressWindowsAuthentication>
     <IISExpressUseClassicPipelineMode>false</IISExpressUseClassicPipelineMode>
     <UseGlobalApplicationHostFile />
-    <NuGetPackageImportStamp>
-    </NuGetPackageImportStamp>
+    <NuGetPackageImportStamp></NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -64,13 +62,13 @@
       <HintPath>..\packages\DevExpress.Web.Dashboard.23.1.4\lib\net452\DevExpress.Dashboard.v23.1.Web.WebForms.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Data.Desktop.v23.1, Version=23.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <HintPath>..\packages\DevExpress.Data.Desktop.23.1.4\lib\net452\DevExpress.Data.Desktop.v23.1.dll</HintPath>
+      <HintPath>..\packages\DevExpress.DataVisualization.Core.23.1.4\lib\net452\DevExpress.DataVisualization.v23.1.Core.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Data.v23.1, Version=23.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <HintPath>..\packages\DevExpress.Data.23.1.4\lib\net452\DevExpress.Data.v23.1.dll</HintPath>
+      <HintPath>..\packages\DevExpress.DataVisualization.Core.23.1.4\lib\net452\DevExpress.DataVisualization.v23.1.Core.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.DataAccess.v23.1, Version=23.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <HintPath>..\packages\DevExpress.DataAccess.23.1.4\lib\net452\DevExpress.DataAccess.v23.1.dll</HintPath>
+      <HintPath>..\packages\DevExpress.DataVisualization.Core.23.1.4\lib\net452\DevExpress.DataVisualization.v23.1.Core.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.DataVisualization.v23.1.Core, Version=23.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <HintPath>..\packages\DevExpress.DataVisualization.Core.23.1.4\lib\net452\DevExpress.DataVisualization.v23.1.Core.dll</HintPath>
@@ -121,40 +119,40 @@
       <HintPath>..\packages\DevExpress.Utils.23.1.4\lib\net452\DevExpress.Utils.v23.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Web.ASPxDiagram.v23.1, Version=23.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <HintPath>..\packages\DevExpress.Web.23.1.4\lib\net452\DevExpress.Web.ASPxDiagram.v23.1.dll</HintPath>
+      <HintPath>..\packages\DevExpress.Web.23.1.4\lib\net452\DevExpress.Web.v23.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Web.ASPxGantt.v23.1, Version=23.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <HintPath>..\packages\DevExpress.Web.23.1.4\lib\net452\DevExpress.Web.ASPxGantt.v23.1.dll</HintPath>
+      <HintPath>..\packages\DevExpress.Web.23.1.4\lib\net452\DevExpress.Web.v23.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Web.ASPxGauges.v23.1, Version=23.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <HintPath>..\packages\DevExpress.Web.Visualization.23.1.4\lib\net452\DevExpress.Web.ASPxGauges.v23.1.dll</HintPath>
+      <HintPath>..\packages\DevExpress.Web.23.1.4\lib\net452\DevExpress.Web.v23.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Web.ASPxHtmlEditor.v23.1, Version=23.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <HintPath>..\packages\DevExpress.Web.23.1.4\lib\net452\DevExpress.Web.ASPxHtmlEditor.v23.1.dll</HintPath>
+      <HintPath>..\packages\DevExpress.Web.23.1.4\lib\net452\DevExpress.Web.v23.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Web.ASPxPivotGrid.v23.1, Version=23.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <HintPath>..\packages\DevExpress.Web.23.1.4\lib\net452\DevExpress.Web.ASPxPivotGrid.v23.1.dll</HintPath>
+      <HintPath>..\packages\DevExpress.Web.23.1.4\lib\net452\DevExpress.Web.v23.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Web.ASPxRichEdit.v23.1, Version=23.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <HintPath>..\packages\DevExpress.Web.Office.23.1.4\lib\net452\DevExpress.Web.ASPxRichEdit.v23.1.dll</HintPath>
+      <HintPath>..\packages\DevExpress.Web.23.1.4\lib\net452\DevExpress.Web.v23.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Web.ASPxScheduler.v23.1, Version=23.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <HintPath>..\packages\DevExpress.Web.Scheduler.23.1.4\lib\net452\DevExpress.Web.ASPxScheduler.v23.1.dll</HintPath>
+      <HintPath>..\packages\DevExpress.Web.23.1.4\lib\net452\DevExpress.Web.v23.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Web.ASPxSpellChecker.v23.1, Version=23.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <HintPath>..\packages\DevExpress.Web.23.1.4\lib\net452\DevExpress.Web.ASPxSpellChecker.v23.1.dll</HintPath>
+      <HintPath>..\packages\DevExpress.Web.23.1.4\lib\net452\DevExpress.Web.v23.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Web.ASPxSpreadsheet.v23.1, Version=23.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <HintPath>..\packages\DevExpress.Web.Office.23.1.4\lib\net452\DevExpress.Web.ASPxSpreadsheet.v23.1.dll</HintPath>
+      <HintPath>..\packages\DevExpress.Web.23.1.4\lib\net452\DevExpress.Web.v23.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Web.ASPxTreeList.v23.1, Version=23.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <HintPath>..\packages\DevExpress.Web.23.1.4\lib\net452\DevExpress.Web.ASPxTreeList.v23.1.dll</HintPath>
+      <HintPath>..\packages\DevExpress.Web.23.1.4\lib\net452\DevExpress.Web.v23.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Web.Mvc5.v23.1, Version=23.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <HintPath>..\packages\DevExpress.Web.Mvc5.23.1.4\lib\net452\DevExpress.Web.Mvc5.v23.1.dll</HintPath>
+      <HintPath>..\packages\DevExpress.Web.23.1.4\lib\net452\DevExpress.Web.v23.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Web.Resources.v23.1, Version=23.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <HintPath>..\packages\DevExpress.Web.23.1.4\lib\net452\DevExpress.Web.Resources.v23.1.dll</HintPath>
+      <HintPath>..\packages\DevExpress.Web.23.1.4\lib\net452\DevExpress.Web.v23.1.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.Web.v23.1, Version=23.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <HintPath>..\packages\DevExpress.Web.23.1.4\lib\net452\DevExpress.Web.v23.1.dll</HintPath>
@@ -369,8 +367,7 @@
           <IISUrl>http://localhost:6262/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
-          <CustomServerUrl>
-          </CustomServerUrl>
+          <CustomServerUrl></CustomServerUrl>
           <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
         </WebProjectProperties>
       </FlavorProperties>
