@@ -25,7 +25,7 @@ namespace ReportServerIntegration {
             serviceCollection.AddSingleton<IAppSettings>(configuration);
 
             var controllers = EnumerateControllers();
-            foreach(var controller in controllers) {
+            foreach (var controller in controllers) {
                 serviceCollection.AddTransient(controller);
             }
 

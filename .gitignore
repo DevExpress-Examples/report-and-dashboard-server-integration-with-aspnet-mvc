@@ -342,3 +342,5 @@ healthchecksdb
 
 # Project specific
 ReportServerIntegration/Web.SECRETS.config
+
+*.bak

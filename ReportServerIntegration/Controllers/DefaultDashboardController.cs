@@ -1,8 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using DevExpress.DashboardWeb.Mvc;
+﻿using DevExpress.DashboardWeb.Mvc;
 
+namespace ReportServerIntegration.Controllers {
     public class DefaultDashboardController : DashboardController {
+
+    }
 }
