@@ -69,7 +69,7 @@ The page displays a list of reports and dashboards available to the current user
 
 - [How to display documents from the Report and Dashboard Server in an ASP.NET Core MVC application](https://github.com/DevExpress-Examples/report-and-dashboard-server-integration-with-aspnet-core-mvc)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=report-and-dashboard-server-integration-with-aspnet-mvc&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=report-and-dashboard-server-integration-with-aspnet-mvc&~~~was_helpful=no)
 
